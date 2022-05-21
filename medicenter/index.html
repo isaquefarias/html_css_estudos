@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script type="text/javascript">    
+    window.onload = function() {
+        document.querySelector(".menuMobile").addEventListener("click", function(){        
+        if (document.querySelector(".menu nav ul").style.display == 'flex') {
+            document.querySelector(".menu nav ul").style.display =  'none';
+        } else {
+            document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+        });
+    }; 
+    </script>
+
+    <title>MediCenter</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="assets/imagens/logo.png" alt="logo"></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menuMobile">
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">PAGES</a></li>
+                        <li><a href="">DEPARTMENTS</a></li>
+                        <li><a href="">TIMETABLE</a></li>
+                        <li><a href="">GALLERY</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container column">
+            <div class="banner-headline">
+                <h1>Top notch experience</h1>
+                <h2>Medicenter is a response template perfect for all screens sizes</h2>
+            </div>
+            <div class="banner-options">
+                <div class="banner1">
+                    <div class="banner-title">Emergency Case</div>
+                    <div class="banner-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa incidunt nobis facilis, tempora reiciendis blanditiis quibusdam ratione. Quo, consectetur pariatur illum labore laboriosam ipsum ut temporibus, nemo unde expedita molestias.</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner2">
+                    <div class="banner-title">Doctors Timetable</div>
+                    <div class="banner-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab voluptatum autem, obcaecati quibusdam veniam molestiae perferendis voluptatibus vel? Quae molestias expedita facere numquam, ullam exercitationem consequuntur dolorum at explicabo non?</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner-title">Opening Hours</div>
+                    <div class="banner-desc">
+                        <div class="banner-line">
+                            <ul>
+                                <li>Monday - Friday</li>
+                                <li>8.00 - 17.00</li>
+                            </ul>
+                        </div>
+                        <div class="banner-line">
+                            <ul>
+                                <li>Saturaday</li>
+                                <li>9.30 - 17.30</li>
+                            </ul>
+                        </div>
+                        <div class="banner-line">
+                            <ul>
+                                <li>Sunday</li>
+                                <li>9.30 - 15:00</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+           <section>
+            <div class="widget">
+                <div class="widget-title">
+                    <div class="widget-title-text">Lastest News</div>
+                    <div class="widget-title-bar"></div>
+                </div>
+
+                <div class="widget-body flex">
+                    <!-- Primeiro Artigo -->
+                    <article>
+                        <a href="">
+                        <div class="news-data">
+                            <div class="news-posted-at">12 DEC 12</div>
+                            <div class="news-comments">2</div>
+                        </div>
+                        <div class="news-thumb">
+                            <img src="assets/imagens/doutor.jpg">
+                        </div>
+                        <div class="news-title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news-resume">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad soluta vitae nihil deserunt non ipsum laboriosam voluptate maxime quibusdam doloribus, aspernatur fuga rerum culpa quas est eaque beatae nemo!
+                        </div>
+                        </a>
+                    </article>
+                     <!-- Segundo Artigo -->
+                     <article>
+                        <a href="">
+                        <div class="news-data">
+                            <div class="news-posted-at">12 DEC 12</div>
+                            <div class="news-comments">2</div>
+                        </div>
+                        <div class="news-thumb">
+                            <img src="assets/imagens/doutor.jpg">
+                        </div>
+                        <div class="news-title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news-resume">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad soluta vitae nihil deserunt non ipsum laboriosam voluptate maxime quibusdam doloribus, aspernatur fuga rerum culpa quas est eaque beatae nemo!
+                        </div>
+                        </a>
+                    </article>
+
+                     <!-- Terceiro Artigo -->
+                     <article>
+                        <a href="">
+                        <div class="news-data">
+                            <div class="news-posted-at">12 DEC 12</div>
+                            <div class="news-comments">2</div>
+                        </div>
+                        <div class="news-thumb">
+                            <img src="assets/imagens/doutor.jpg">
+                        </div>
+                        <div class="news-title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news-resume">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad soluta vitae nihil deserunt non ipsum laboriosam voluptate maxime quibusdam doloribus, aspernatur fuga rerum culpa quas est eaque beatae nemo!
+                        </div>
+                        </a>
+                    </article>
+
+                     <!-- Quarto Artigo -->
+                     <article>
+                        <a href="">
+                        <div class="news-data">
+                            <div class="news-posted-at">12 DEC 12</div>
+                            <div class="news-comments">2</div>
+                        </div>
+                        <div class="news-thumb">
+                            <img src="assets/imagens/doutor.jpg">
+                        </div>
+                        <div class="news-title">
+                            Lorem ipsum dolor sit amat velum
+                        </div>
+                        <div class="news-resume">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto ad soluta vitae nihil deserunt non ipsum laboriosam voluptate maxime quibusdam doloribus, aspernatur fuga rerum culpa quas est eaque beatae nemo!
+                        </div>
+                        </a>
+                    </article>
+                </div>
+
+           </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Departaments</div>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="dep">
+                            <div class="dep1"></div>
+                            <div class="dep1"></div>
+                            <div class="dep1"></div>
+                            <div class="dep1"></div>
+                            <div class="dep1"></div>
+                            <div class="dep1"></div>
+                        </div>  
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-title">
+                        <div class="widget-title-text">Make An Apoinemtn</div>
+                        <div class="widget-title-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="m-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae enim eligendi odio maiores! Culpa esse facilis consectetur commodi maiores animi numquam quae laudantium deserunt fugit. Ab architecto alias similique itaque.
+                        </div>
+                        <div class="space"></div>
+                        <div class="m-contato">
+                            <ul>
+                                <li>by phone: 1-800-643-4300</li>                                              
+                            </ul>
+                        </div>
+                        <div class="m-contato">
+                            <ul>
+                                <li>by phone: 1-800-643-4300</li>                                              
+                            </ul>
+                        </div>
+                        <div class="m-contato">
+                            <ul>
+                                <li>by phone: 1-800-643-4300</li>                                              
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </aside>
+        </div>
+    </section>
+    <!-- Rodapé-->
+    <footer>
+        <div class="container flexcolumn">
+            <div class="footer-menu">
+                <div class="fm-1">
+                    <a href="">
+                        ...
+                    </a>
+                </div>
+                <div class="fm-2">
+                    <a href="">
+                        ...
+                    </a>
+                </div>
+                <div class="fm-3">
+                    <a href="">
+                        ...
+                    </a>
+                </div>
+            </div>
+            <div class="footer-area">
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Medicenter Clinci</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Latest Posts</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                           ... 
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_areaitem">
+                    <div class="widget">
+                        <div class="widget-title">
+                            <div class="widget-title-text">Lastest Tweets</div>
+                            <div class="widget-title-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                           ... 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copy"></div>
+        </div>
+    </footer>
+</body>
+</html>
