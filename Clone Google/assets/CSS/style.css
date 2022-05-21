@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    padding: 20px;
+    height: 50px;
+}
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+nav, ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.g-apps, .nav-button {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+}
+.g-apps img {
+    padding: 5px;
+    border-radius: 50%;
+}
+.g-apps img:hover{
+    background-color: rgb(224, 224, 224);
+    
+}
+.nav-button {
+    margin: 0;
+}
+.nav-btn {
+    padding-top: 0;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:#4285F4;
+    color: #fff;
+}
+.nav-btn:hover{
+    background-color: #2B7DE9;
+}
+a {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    padding-left: 10px;
+    text-align: center;
+    color: #424242;
+}
+li:hover{
+    text-decoration: underline;
+}
+#google {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+.g-image {
+    display: flex;
+    justify-content: center;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input[type=text]{
+    margin-top: 20px;
+    padding: 10px;
+    width: 500px;
+    border: 1px solid #cfcfcf;
+    border-radius: 30px;
+}
+input[type=text]:hover {
+    box-shadow: 5px 2px 5px #cfcfcf;
+}
+.button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: #fff;
+    color: #424242;
+    margin-left: 10px;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+.btn:hover {
+    border: 1px solid #ccc;
+}
+footer {
+    background-color: #e7e7e7;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+}
+footer h4{
+    color: #424242;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.footer {
+    border-bottom: 1px solid #dbdbdb;
+}
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.footer-fixed{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    color: #424242;
+    text-align: center;
+}
+.footer-end {
+    display: flex;
+    align-content: center;
+    padding: 10px;
+    padding-right: 30px;
+    text-align: center;
+}
+label {
+    padding-left: 20px;
+    font-size: 15px;
+    color: #424242;
+}
